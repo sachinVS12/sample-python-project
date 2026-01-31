@@ -17,7 +17,7 @@ class MQTTPublisher(QObject):
         self.topics = topics if isinstance(topics, list) else [topics]
 
         # Frequencies
-        self.signal_frequency = 3
+        self.signal_frequency = 5
         self.tacho_fixed_freq = 10
 
         # Signal parameters
