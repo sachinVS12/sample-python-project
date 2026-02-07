@@ -163,7 +163,7 @@ class MQTTPublisher(QObject):
 
         # Frequencies
         self.signal_frequency = 10
-        self.tacho_fixed_freq = 10
+        self.tacho_fixed_freq = 20
 
         # Signal parameters
         self.amplitude = 1.0
