@@ -155,7 +155,7 @@ logging.basicConfig(level=logging.INFO,
 
 
 class MQTTPublisher(QObject):
-    def __init__(self, broker, topics):
+    def __init__(self, broker, topics): 
         super().__init__()
 
         self.broker = broker
@@ -163,7 +163,7 @@ class MQTTPublisher(QObject):
 
         # Frequencies
         self.signal_frequency = 10
-        self.tacho_fixed_freq = 20
+        self.tacho_fixed_freq = 10
 
         # Signal parameters
         self.amplitude = 1.0
